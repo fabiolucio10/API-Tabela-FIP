@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>TABELA FIP CAR</title>
+</head>
+
+<body  >
+    <!-- Barra de navegação -->
+    
+    <nav >
+        <div class="cabeçalho">
+            <img class="cabeçalho__img" src="./img/carro1.png" alt="">
+            <h1 class="main-container-title">Tabela Fip </h1>
+            <div class="cabeçalho-button">
+                <button class="cabeçalho__btn"><a href="https://github.com/fabiolucio10" target="_blank">GIT HUB Fábio
+                        Lúcio</a></button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main >
+        <div class="grid">
+
+            <h3 class="grid-texto">Click para conferir tabela de veículos!</h3>
+
+            <!-- Botão para obter a tabela -->
+            <div>
+            <button class="grid-tabela-button" id="button-get" onclick="handleGetModelos()">Ver Tabela</button>
+            </div>
+
+
+            <!-- Lista de modelos -->
+            <div id="modelos">
+
+                <ul>
+
+                </ul>
+            </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

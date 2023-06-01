@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  background: linear-gradient(rgb(34, 34, 112), purple);
+  color: navy;
+  transform-style: preserve-3d;
+  align-items: center;
+  font-size: 50px;
+  flex-wrap: wrap;
+  background-image: url("img/cabeçalho5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cabeçalho__img {
+  width: 200px;
+  height: 100px;
+}
+
+.cabeçalho__btn {
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid #e8dfeb;
+  background-color: white;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: navy;
+}
+
+.grid-texto {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.grid-tabela-button {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 33px;
+  cursor: pointer;
+  position: relative;
+  background: #b621fe;
+  border: none;
+}
+
+body {
+  /*  / background: rgb(34, 34, 112); */
+  background-image: url("img/Imagem3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modelos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6c1c86;
+  width: 400px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.background-image {
+  margin: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
